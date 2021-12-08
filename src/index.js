@@ -6,22 +6,20 @@ import Home from './pages/Home';
 import Curator from './components/Curator';
 import Footer from './components/Footer';
 import Places from './components/Places';
+import Routes from './router';
+import { BrowserRouter } from 'react-router-dom';
 // jsx
 
-const CONFIG = {
-  state: 'SP',
-  city: 'São Paulo'
-}
 
-//hard coded
 
 ReactDOM.render(
   <div className="main__wrapper">
     <div className="main__container">
-      <Header city={CONFIG.city} state={CONFIG.state}/>
-      <Home city={CONFIG.city}/>
-      <Places/>
-      <Curator/>
+      <BrowserRouter>
+        <Routes />
+        <Places/>
+        <Curator/>
+      </BrowserRouter>
     </div>
     
       <Footer/>
