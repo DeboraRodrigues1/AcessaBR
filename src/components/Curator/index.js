@@ -14,7 +14,7 @@ function CuratorItem() {
                 <h3>Débora Taveira</h3>
                 <h6>Curadoria</h6>
                 </div>
-                <p>Desenvolvedora desde 2019, e estudante de Ciencia da Computação, atuando como front end </p>
+                <p>Estudante de Ciência da Computação, atuando como desenvolvedora Front End desde 2019.</p>
                 
             </div>
         </div>
